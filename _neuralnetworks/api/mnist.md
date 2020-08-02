@@ -4,6 +4,7 @@ title: "Mnist"
 grand_upper_section: index
 upper_section: apitoc
 previous_section: adam
+next_section: fashionmnist
 ---
 Mnist
 =====
@@ -37,7 +38,7 @@ Downloaded data is cached.
 Arguments:
 
 - **filePath**: path where to cache the dataset locally.
-    - Default path is sys_get_temp_dir().'/rindow/nn/datasets'
+    - Default path is sys_get_temp_dir().'/rindow/nn/datasets/mnist'
 
 Examples
 
