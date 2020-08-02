@@ -6,8 +6,7 @@ upper_section: apitoc
 previous_section: batchnormalization
 next_section: conv2d
 ---
-Conv1D
-====
+
 
 - **namespace**: Rindow\NeuralNetworks\Layer
 - **classname**: Conv1D
