@@ -6,8 +6,6 @@ upper_section: apitoc
 previous_section: conv1d
 next_section: conv3d
 ---
-Conv2D
-====
 
 - **namespace**: Rindow\NeuralNetworks\Layer
 - **classname**: Conv2D
