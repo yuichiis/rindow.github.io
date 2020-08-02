@@ -1,6 +1,6 @@
 ---
 layout: document
-title: "cifar-10"
+title: "Cifar10"
 grand_upper_section: index
 upper_section: apitoc
 previous_section: fashionmnist
