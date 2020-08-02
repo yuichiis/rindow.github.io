@@ -5,8 +5,6 @@ grand_upper_section: index
 upper_section: apitoc
 previous_section: fashionmnist
 ---
-Cifar10
-=====
 
 - **namespace**: Rindow\NeuralNetworks\Dataset
 - **classname**: Cifar10
