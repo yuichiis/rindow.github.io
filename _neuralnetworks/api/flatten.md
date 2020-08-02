@@ -1,6 +1,6 @@
 ---
 layout: document
-title: "Dense"
+title: "Flatten"
 grand_upper_section: index
 upper_section: apitoc
 previous_section: dense
