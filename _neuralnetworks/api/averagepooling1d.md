@@ -6,8 +6,7 @@ upper_section: apitoc
 previous_section: maxpooling3d
 next_section: averagepooling2d
 ---
-AveragePooling1D
-=====
+
 
 - **namespace**: Rindow\NeuralNetworks\Layer
 - **classname**: AveragePooling1D
