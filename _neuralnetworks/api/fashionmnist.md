@@ -6,8 +6,7 @@ upper_section: apitoc
 previous_section: mnist
 next_section: cifar10
 ---
-FashionMnist
-=====
+
 
 - **namespace**: Rindow\NeuralNetworks\Dataset
 - **classname**: FashionMnist
