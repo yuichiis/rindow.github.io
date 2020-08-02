@@ -6,8 +6,7 @@ upper_section: apitoc
 previous_section: conv2d
 next_section: maxpooling1d
 ---
-Conv3D
-====
+
 
 - **namespace**: Rindow\NeuralNetworks\Layer
 - **classname**: Conv3D
