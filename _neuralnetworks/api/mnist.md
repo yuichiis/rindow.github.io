@@ -6,8 +6,7 @@ upper_section: apitoc
 previous_section: adam
 next_section: fashionmnist
 ---
-Mnist
-=====
+
 
 - **namespace**: Rindow\NeuralNetworks\Dataset
 - **classname**: Mnist
