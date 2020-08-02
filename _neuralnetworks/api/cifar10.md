@@ -12,7 +12,7 @@ Cifar10
 - **classname**: Cifar10
 
 CIFAR-10 images sample dataset.
-See [Cifar-10 web site](https://www.cs.toronto.edu/~kriz/cifar.html).
+See [CIFAR-10 web site](https://www.cs.toronto.edu/~kriz/cifar.html).
 
 Methods
 -------
