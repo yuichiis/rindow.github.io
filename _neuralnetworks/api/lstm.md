@@ -1,6 +1,6 @@
 ---
 layout: document
-title: "SimpleRNN"
+title: "LSTM"
 grand_upper_section: index
 upper_section: apitoc
 previous_section: simplernn

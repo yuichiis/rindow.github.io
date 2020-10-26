@@ -3,7 +3,7 @@ layout: document
 title: "Dropout"
 grand_upper_section: index
 upper_section: apitoc
-previous_section: flatten
+previous_section: repeatvector
 next_section: batchnormalization
 ---
 

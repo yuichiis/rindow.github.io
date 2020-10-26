@@ -3,8 +3,8 @@ layout: document
 title: "GRU"
 grand_upper_section: index
 upper_section: apitoc
-previous_section: averagepooling3d
-next_section: lstm
+previous_section: lstm
+next_section: attention
 ---
 
 - **namespace**: Rindow\NeuralNetworks\Layer
