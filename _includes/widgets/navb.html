@@ -1,0 +1,20 @@
+{% include get-widget-data-and-options widget="navb" include=include %}
+<div class="widgetwrapper widget-navb widget-navb-{{widget_options.name}}">
+  <nav class="navbar navbar-expand-sm navbar-light" role="navigation">
+    <ul class="navbar-nav mr-auto">
+      {%- for nav in widget_data.menu -%}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ nav.link }}">{{ nav.caption }}</a>
+        </li>
+      {%- endfor -%}
+    </ul>
+    {%- if widget_data.search -%}
+      {%- if site.google_custom_search_engine_id -%}<form class="form-inline my-2 my-lg-0" action="/search" method="get" role="form">
+      <input type="hidden" name="cx" value="{{ site.google_custom_search_engine_id }}" />
+      <input type="hidden" name="ie" value="UTF-8" />
+      <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search" aria-label="Search">
+    </form>{% else %}<form class="form-inline my-2 my-lg-0" action="https://www.google.com/search" method="get" role="form" onSubmit="return sitesearchauxi(this.elements[0]);">
+        <input class="form-control mr-sm-2" type="search" name="q" results="0" placeholder="Search"/>
+    </form>{% endif %}{% endif %}
+  </nav>
+</div>

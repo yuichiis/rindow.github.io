@@ -1,6 +1,6 @@
 ---
 ---
-{% include theme-sytle theme="default" %}
+{% include theme-sytle theme="docs" %}
 .navbar {
 	margin-bottom: 0;
 	.brand-image {
@@ -10,6 +10,9 @@
 		max-height: 40px;
 		width: auto;
 	}
+}
+.body {
+    filter: brightness(1.9);
 }
 .jumbotron {
 	margin-bottom: 0;
