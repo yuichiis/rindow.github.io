@@ -27,4 +27,4 @@ Our Goal
 
 胆
 
-![rindow](/assets/img/rindow-flowers.png)
+![rindow flowers](/assets/img/rindow-flowers.png)
