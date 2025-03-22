@@ -271,7 +271,7 @@ Each block consists of Multi-Head Attention, Feed Forward Network, and Add & Lay
 - **Feed Forward Network**: A standard neural network that is applied to each sequence.
 - **Residual Connection (addition processing) and Layer Normalization**: Stabilizes and accelerates learning.
 
-![Transformer Model](images/transformer-translation-model.png)
+![Transformer Model](images/transformer-translation-model.svg)
 
 ### Positional Embedding
 The input is a French sentence, with words converted to vectors.
