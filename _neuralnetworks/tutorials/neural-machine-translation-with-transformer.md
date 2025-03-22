@@ -14,7 +14,7 @@ A Transformer is a translation model that uses an attention mechanism.
 It's a very powerful model that can be applied to various tasks, not just natural language processing.
 It doesn't use RNN blocks but rather uses only attention, which improves parallel computation efficiency and enables faster learning and inference.
 
-![Attention Image](images/neural-machine-translation-attention.png)
+![Attention Image](images/transformer-translation-attention.png)
 
 Prerequisites
 ------------
@@ -271,7 +271,7 @@ Each block consists of Multi-Head Attention, Feed Forward Network, and Add & Lay
 - **Feed Forward Network**: A standard neural network that is applied to each sequence.
 - **Residual Connection (addition processing) and Layer Normalization**: Stabilizes and accelerates learning.
 
-![Transformer Model](images/neural-machine-translation-transformer.png)
+![Transformer Model](images/transformer-translation-model.png)
 
 ### Positional Embedding
 The input is a French sentence, with words converted to vectors.
@@ -1208,7 +1208,7 @@ Variables=174
 Total training time: 05:00:31
 ```
 
-![Training History](images/transformer/transformer-translation-training.png)
+![Training History](images/transformer-translation-training.png)
 
 ### Prediction
 Let's perform machine translation with the trained model.
